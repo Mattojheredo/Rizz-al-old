@@ -119,3 +119,94 @@
 @media (max-width: 600px) {
     .other-grid { grid-template-columns: 1fr; }
 }
+
+.post-card-image { flex-wrap: wrap; }
+.post-body { min-width: 0; }
+
+button.read-more {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid var(--accent-blue);
+    font-family: inherit;
+    cursor: pointer;
+}
+
+button.read-more:hover { color: var(--accent-gold); border-color: var(--accent-gold); }
+
+.card-panel {
+    flex: 0 0 100%;
+    margin-top: 1rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid var(--border-subtle);
+}
+
+.card-panel[hidden] { display: none; }
+
+.panel-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.3rem;
+    color: var(--text-sepia);
+    margin-bottom: 0.6rem;
+}
+
+.card-panel .panel-title:not(:first-child) { margin-top: 2rem; margin-bottom: 0.2rem; }
+
+.art-text {
+    font-family: 'Lora', serif;
+    font-size: 1.02rem;
+    line-height: 1.9;
+    color: #4A3B32;
+    max-width: 62ch;
+}
+
+.char-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 2.2rem;
+}
+
+.char {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.char dt {
+    font-family: 'Cinzel', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--text-sepia);
+}
+
+.char dt span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--accent-gold);
+    margin-top: 0.1rem;
+}
+
+.char dd {
+    font-family: 'Lora', serif;
+    font-size: 0.93rem;
+    line-height: 1.7;
+    color: #4A3B32;
+    margin-top: 0.4rem;
+}
+
+.poem-note {
+    border-left: 3px solid var(--accent-gold);
+    padding: 0.2rem 0 0.2rem 1.2rem;
+    margin: 0.8rem 0 0.6rem;
+}
+
+.poem-note p {
+    font-family: 'Lora', serif;
+    font-size: 1rem;
+    line-height: 1.85;
+    color: #4A3B32;
+}
+
+@media (max-width: 700px) {
+    .char-list { grid-template-columns: 1fr; }
+}
