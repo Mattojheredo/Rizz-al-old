@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="Footer.css">
     <link rel="stylesheet" href="life.css">
     <link rel="stylesheet" href="Works.css">
+    <link rel="stylesheet" href="Info.css">
 
 </head>
 <body>
@@ -40,7 +41,6 @@
             </div>
         </div>
     </section>
-        <!-- THREE TABS N SECTION WITH IT -->
 
         <section class="baba">
         <h1 id="Major" class="major">Major Literary Works</h1>
@@ -49,34 +49,160 @@
     <div class="main-cont">
     <main class="blog-posts">
     <article class="post-card post-card-image">
-        <img src="/Images/Noli_Me_Tangere.jpg" alt="Noli Me Tángina" class="post-thumb">
+        <img src="/Images/Noli_Me_Tangere.jpg" alt="Noli Me Tángere" class="post-thumb">
         <div class="post-body">
             <div class="post-meta">Noli Me Tángere</div>
-            <h2 class="post-title"><a href="https://en.wikipedia.org/wiki/Noli_Me_T%C3%A1ngere_(novel)">Rizal Exposes the Friars in a Novel</a></h2>
+            <h2 class="post-title">Rizal Exposes the Friars in a Novel</h2>
             <p class="post-excerpt">Rizal’s first novel, published in 1887. It follows Crisóstomo Ibarra, who returns from Europe and runs into the abuses of the Spanish friars and colonial officials.</p>
-            <a href="https://en.wikipedia.org/wiki/Noli_Me_T%C3%A1ngere_(novel)" class="read-more">Read Full Article →</a>
+            <button type="button" class="read-more toggle" aria-expanded="false" aria-controls="panel-noli">Show Story &amp; Characters →</button>
         </div>
-    </article>
+        <div class="card-panel" id="panel-noli" hidden>
+            <h3 class="panel-title">Background of the Story</h3>
+            <p class="art-text">Rizal wrote Noli Me Tángere in Europe and had it printed in Berlin in 1887. The story is set in the fictional town of San Diego, where Crisóstomo Ibarra comes home after seven years abroad and wants to build a school. The friars and officials stand in his way, and the novel shows how abuse of power destroys one man’s hope for peaceful reform.</p>
+            <h3 class="panel-title">Major Characters</h3>
+        <dl class="char-list">
+    <div class="char">
+        <dt>Crisóstomo Ibarra<span>Main character</span></dt>
+            <dd>A wealthy young Filipino who studied in Europe for seven years. He is idealistic and believes in education and peaceful reform. His father, Don Rafael, died in disgrace, and Ibarra spends the novel trying to build a school and clear his family’s name.</dd>
+    </div>
+    <div class="char">
+        <dt>María Clara<span>Ibarra’s beloved</span></dt>
+            <dd>The sweet and devoted daughter of Kapitan Tiago, and Ibarra’s fiancée. She is the model of the obedient young woman of her time, but she is forced to choose between love and the secret of her birth.</dd>
+    </div>
+    <div class="char">
+        <dt>Elías<span>The fugitive</span></dt>
+            <dd>A boatman and fugitive who saves Ibarra’s life twice. He believes in revolution for justice, while Ibarra believes in reform, and the two men’s talks show the two paths open to the country.</dd>
+    </div>
+    <div class="char">
+        <dt>Padre Damaso<span>The arrogant friar</span></dt>
+            <dd>A proud Franciscan who was once the parish priest of San Diego. He had a long grudge against Don Rafael Ibarra, and he stands for the abuse of power by the clergy.</dd>
+    </div>
+    <div class="char">
+        <dt>Padre Salví<span>The scheming curate</span></dt>
+            <dd>The soft-spoken friar who replaces Padre Damaso as curate of San Diego. He secretly desires María Clara and uses his power to set Ibarra up.</dd>
+    </div>
+    <div class="char">
+        <dt>Sisa<span>A mother who loses everything</span></dt>
+            <dd>A poor and loving mother of Basilio and Crispin. She is driven mad after her sons are taken from her, and her story shows the suffering of ordinary people.</dd>
+    </div>
+    <div class="char">
+        <dt>Basilio and Crispin<span>Sisa’s sons</span></dt>
+            <dd>Two young brothers who work as sacristans. Crispin is falsely accused of stealing, and Basilio’s story continues into El Filibusterismo.</dd>
+    </div>
+    <div class="char">
+        <dt>Pilósopo Tasyo<span>The wise old man</span></dt>
+            <dd>A thoughtful elder whom the town calls crazy because his ideas are ahead of his time. He gives Ibarra advice and warns him about the danger he is in.</dd>
+    </div>
+    <div class="char">
+        <dt>Kapitan Tiago<span>The wealthy cabeza</span></dt>
+            <dd>A rich man who stays close to the friars and the Spanish officials to protect his money and position, and the legal father of María Clara.</dd>
+    </div>
+    <div class="char">
+        <dt>Doña Victorina<span>The social climber</span></dt>
+            <dd>A Filipina who pretends to be Spanish and looks down on her own people. Rizal uses her to make fun of those who copy the colonizers.</dd>
+    </div>
+    </dl>
+
+    </div>
+        </article>
 
     <article class="post-card post-card-image">
         <img src="/Images/El_Filibusterismo_facsimilie_cover.jpg" alt="El Filibusterismo" class="post-thumb">
         <div class="post-body">
-        <div class="post-meta">El Filibusterismo</div>
-            <h2 class="post-title"><a href="https://en.wikipedia.org/wiki/El_Filibusterismo">The Sequel Where Things Get Darker</a></h2>
+            <div class="post-meta">El Filibusterismo</div>
+            <h2 class="post-title">The Sequel Where Things Get Darker</h2>
             <p class="post-excerpt">The 1891 sequel. Ibarra returns in disguise as the jeweler Simoun, and the story turns from reform to revenge.</p>
-            <a href="https://en.wikipedia.org/wiki/El_Filibusterismo" class="read-more">Read Full Article →</a>
+            <button type="button" class="read-more toggle" aria-expanded="false" aria-controls="panel-elfili">Show Story &amp; Characters →</button>
+        </div>
+        <div class="card-panel" id="panel-elfili" hidden>
+            <h3 class="panel-title">Background of the Story</h3>
+            <p class="art-text">El Filibusterismo takes place about thirteen years after Noli Me Tángere and was printed in Ghent in 1891. Simoun, a rich and feared jeweler, is really Ibarra in disguise, and he has come back for revenge on the system that ruined him. Meanwhile, Basilio is now a medical student and a group of students fights for a school that teaches Spanish. The novel asks whether violence can fix an unjust society.</p>
+            <h3 class="panel-title">Major Characters</h3>
+                <dl class="char-list">
+        <div class="char">
+            <dt>Simoun<span>The jeweler</span></dt>
+                <dd>Ibarra in disguise. He is rich, feared, and bitter, and he uses his wealth to push the colonial government into abuses so the people will finally revolt. His plan shows how hatred can twist an idealist.</dd>
+        </div>
+        <div class="char">
+            <dt>Basilio<span>The medical student</span></dt>
+                <dd>Sisa’s son, now a hardworking student near the end of his medical course. He wants to finish his studies and stay out of politics, but injustice keeps pulling him in.</dd>
+        </div>
+        <div class="char">
+            <dt>Isagani<span>The poet</span></dt>
+                <dd>A passionate student and Paulita’s sweetheart. He is the idealist of the new generation, and he believes in the cause but not in violence.</dd>
+        </div>
+        <div class="char">
+            <dt>Padre Florentino<span>The wise priest</span></dt>
+                <dd>Isagani’s uncle and a good and thoughtful priest. He represents faith and conscience, and Simoun spends his last hours with him.</dd>
+        </div>
+        <div class="char">
+            <dt>Kabesang Tales<span>The farmer who loses everything</span></dt>
+                <dd>A farmer who loses his land to the friars and his daughter to their schemes. He later joins the outlaws, and his story shows how injustice pushes ordinary people to extremes.</dd>
+        </div>
+        <div class="char">
+            <dt>Juli<span>Basilio’s sweetheart</span></dt>
+                <dd>Kabesang Tales’s daughter. She works to free her father and is put in a terrible position by the friars, which becomes one of the most tragic parts of the novel.</dd>
+        </div>
+        <div class="char">
+            <dt>Padre Camorra<span>The abusive friar</span></dt>
+                <dd>A friar who abuses his position. He stands for the corrupt clergy that Rizal criticizes.</dd>
+        </div>
+        <div class="char">
+            <dt>Don Custodio<span>The lazy official</span></dt>
+                <dd>A government adviser who makes decisions based on his own convenience. Rizal uses him to show how weak and corrupt the officials were.</dd>
+        </div>
+        <div class="char">
+            <dt>Paulita Gómez<span>Isagani’s sweetheart</span></dt>
+                <dd>A pretty and wealthy girl who in the end chooses to marry Juanito Pelaez.</dd>
+        </div>
+        <div class="char">
+            <dt>Juanito Pelaez<span>The social climber</span></dt>
+                <dd>A student who flatters the teachers and the friars to get ahead, and who marries Paulita.</dd>
+        </div>
+        </dl>
+
         </div>
     </article>
 
     <article class="post-card post-card-image">
         <img src="/Images/Mi Último Adiós.jpg" alt="Mi Último Adiós" class="post-thumb">
         <div class="post-body">
-        <div class="post-meta">Mi Último Adiós</div>
-            <h2 class="post-title"><a href="https://en.wikipedia.org/wiki/Mi_Último_Adiós">The Farewell Poem Rizal Left Behind</a></h2>
+            <div class="post-meta">Mi Último Adiós</div>
+            <h2 class="post-title">The Farewell Poem Rizal Left Behind</h2>
             <p class="post-excerpt">The poem Rizal wrote the night before his execution on December 30, 1896. It’s his farewell to the country he loved.</p>
-            <a href="https://en.wikipedia.org/wiki/Mi_Último_Adiós" class="read-more">Read Full Article →</a>
+            <button type="button" class="read-more toggle" aria-expanded="false" aria-controls="panel-adios">Show Story &amp; Characters →</button>
+        </div>
+        <div class="card-panel" id="panel-adios" hidden>
+<h3 class="panel-title">Background of the Story</h3>
+<p class="art-text">Rizal wrote Mi Último Adiós in Fort Santiago in his last hours, before he was shot at Bagumbayan on December 30, 1896. The poem is in Spanish, with fourteen stanzas of five lines each, and it had no title until after his death. The story passed down says he hid it inside an alcohol stove and gave it to his sister Trinidad.</p>
+<h3 class="panel-title">Who Speaks in the Poem</h3>
+
+        <div class="poem-note">
+            <p>Mi Último Adiós is a poem, so it has no characters like the two novels. The speaker is Rizal himself, and he is speaking to the Philippines, which he calls his adored homeland and the “Pearl of the Orient Sea.” He also speaks to his parents, his friends, and the people he loves.</p>
+        </div>
+
+<dl class="char-list">
+<div class="char">
+<dt>The speaker<span>Rizal himself</span></dt>
+<dd>A man who has accepted that he will die and wants to say goodbye. He is calm, not angry, and says he gives his life gladly for his country.</dd>
+</div>
+<div class="char">
+<dt>The homeland<span>Whom the poem is addressed to</span></dt>
+<dd>The Philippines, which he calls his beloved homeland. The whole poem is a farewell and a promise of love to the country.</dd>
+</div>
+<div class="char">
+<dt>Family and friends<span>The people he leaves behind</span></dt>
+<dd>He speaks to his parents, his friends, and the people he loved. These lines show the human side of his sacrifice.</dd>
+</div>
+<div class="char">
+<dt>Those who fall in the struggle<span>The fallen</span></dt>
+<dd>He mentions those who died fighting for freedom, and says he joins them, which makes his death part of something larger than himself.</dd>
+</div>
+</dl>
+
         </div>
     </article>
+
 </main>
 <aside class="sidebar">
 
@@ -176,14 +302,14 @@
 
     <nav class="feets" aria-label="Works">
     <h3 class="feets-h3">Works</h3>
-    <a class="foot-text" href="Works.html#Book"><ins>The Works of Rizal</ins></a>
+    <a class="foot-text" href="Works.html"><ins>The Works of Rizal</ins></a>
     <a class="foot-text" href="Works.html#Major"><ins>Major Literary Works</ins></a>
     <a class="foot-text" href="Works.html#Other-Works"><ins>Other Works</ins></a>
     </nav>
 
     <nav class="feets" aria-label="Legacy">
     <h3 class="feets-h3">Social Media's</h3>
-    <a class="foot-text" href="https://github.com/Mattojheredo"><ins>Github</ins></a>
+    <a class="foot-text" href="https://www.facebook.com/profile.php?id=61595543087887"><ins>Facebook</ins></a>
     <a class="foot-text" href="https://www.instagram.com/mattojheredo/"><ins>Instagram</ins></a>
     <a class="foot-text" href="https://steamcommunity.com/profiles/76561198872829556/"><ins>Steam</ins></a>
     <a class="foot-text" href="https://www.roblox.com/users/119009654/profile"><ins>Roblox</ins></a>
@@ -194,5 +320,17 @@
     <p>Matt Jhared Miole | For Project hehe.</p>
 </div>
 </footer>
+
+<script>
+    document.querySelectorAll('.toggle').forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var panel = document.getElementById(btn.getAttribute('aria-controls'));
+            var open = btn.getAttribute('aria-expanded') === 'true';
+            btn.setAttribute('aria-expanded', String(!open));
+            panel.hidden = open;
+            btn.textContent = open ? 'Read Full Article →' : 'Show Less ↑';
+        });
+    });
+</script>
 </body>
 </html>
