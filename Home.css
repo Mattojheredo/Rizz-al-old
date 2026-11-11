@@ -7,6 +7,9 @@
         align-items: center;
     }
 
+    .sidebar {
+         position: static;
+    }    
     .logo {
         font-family: 'Cinzel', serif;
         font-size: 1.5rem;
