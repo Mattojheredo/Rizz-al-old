@@ -120,6 +120,8 @@
     .other-grid { grid-template-columns: 1fr; }
 }
 
+/* EXPAND po */
+
 .post-card-image { flex-wrap: wrap; }
 .post-body { min-width: 0; }
 
