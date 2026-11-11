@@ -129,11 +129,12 @@
 
     .post-card {
         background: var(--card-bg);
-        border: 1px solid var(--border-subtle);
         padding: 2rem;
         border-radius: 4px;
-        box-shadow: 0 4px 12px rgba(44, 34, 30, 0.03);
+        box-shadow: 0 4px 15px rgba(44, 34, 30, 0.03);
         transition: transform 0.2s;
+        border: 1px solid var(--accent-gold);
+    outline: 1px solid var(--border-subtle);
     }
 
     .post-card:hover {
@@ -359,11 +360,12 @@
     text-decoration: none;
     color: var(--text-sepia);
     background: var(--card-bg);
-    border: 1px solid var(--border-subtle);
     border-radius: 4px;
     padding: 2rem;
     box-shadow: 0 4px 12px rgba(44, 34, 30, 0.05);
     transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid var(--accent-gold);
+    outline: 1px solid var(--border-subtle);
 }
 
 .hub-card:hover {
